@@ -1,0 +1,37 @@
+# ---------- 密钥与配置 ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# ---------- 数据：原始数据不提交，交付文件保留 ----------
+data/raw/
+data/interim/
+
+# 如果 processed 下只有交付文件，保留；如果有大量中间文件，按需放开下行
+# data/processed/*.tmp
+
+# ---------- 日志 ----------
+logs/
+*.log
+
+# ---------- 编辑器与系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- 临时与缓存 ----------
+*.tmp
+*.bak
+~$*
+.pytest_cache/
+.ipynb_checkpoints/
