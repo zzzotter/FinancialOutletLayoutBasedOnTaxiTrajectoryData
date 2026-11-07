@@ -20,8 +20,8 @@ from dotenv import load_dotenv
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from config.districts import BEIJING_DISTRICTS  # noqa: E402
-from config.keywords import KEYWORDS_MAP  # noqa: E402
+from config.district import BEIJING_DISTRICTS  # noqa: E402
+from config.keyword import KEYWORDS_MAP  # noqa: E402
 
 # ---------- 配置 ----------
 load_dotenv(PROJECT_ROOT / ".env")

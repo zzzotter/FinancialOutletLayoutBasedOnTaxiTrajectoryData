@@ -14,6 +14,7 @@ env/
 
 # ---------- 数据：原始数据不提交，交付文件保留 ----------
 data/raw/
+!data/raw/raw_poi.csv
 data/interim/
 
 # 如果 processed 下只有交付文件，保留；如果有大量中间文件，按需放开下行
